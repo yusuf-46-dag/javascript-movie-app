@@ -1,0 +1,74 @@
+body {
+    background-color: #222;
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+  
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+  
+/* Arama Kutusu */
+.search-box {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+  
+.search-box input {
+    padding: 10px;
+    width: 60%;
+    font-size: 16px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    outline: none;
+}
+  
+.search-box button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+  
+.search-box button:hover {
+    background-color: #b20710;
+}
+  
+/* Film Kartları */
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+  
+.movie-card {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+  
+.movie-card:hover {
+    transform: scale(1.05);
+}
+  
+.movie-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+  
+.movie-card h3 {
+    font-size: 16px;
+    margin: 10px 0 5px 0;
+}
