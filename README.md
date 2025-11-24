@@ -18,7 +18,7 @@ Bu projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımlar�
 
 1.  **Projeyi Klonlayın:**
     ```bash
-    git clone [https://github.com/yusuf-46-dag/javascript-movie-app.git](https://github.com/yusuf-46-dag/javascript-movie-app.git)
+    git clone https://github.com/yusuf-46-dag/javascript-movie-app.git
     ```
 
 2.  **API Anahtarı Alın:**
